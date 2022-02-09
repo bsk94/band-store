@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alicks</title>
+  </head>
+  <body>
+    <header class="artistStore__header">
+      <h1 class="artistName__header">Alicks</h1>
+    </header>
+
+    <section class="products__section">
+      <div>
+        <h2 class="container__header">ALBUMS</h2>
+      </div>
+
+      <!-- <div class="shop__items">
+        <div class="shop__item">
+          <h3 class="shopItem__title">Inanimate EP</h3>
+
+          <img
+            class="shopItem__image"
+            src="Images/Alicks-inanimate.jpg"
+            alt="Alicks in animate"
+          />
+          <div class="shopItem__details">
+            <h3 class="shopItem__price">65zł</h3>
+            <button class="shopItem__btn" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop__item">
+          <h3 class="shopItem__title">Help me out</h3>
+          <img class="shopItem__image" src="Images/Alicks-help_me_out.jpg" />
+          <div class="shopItem__details">
+            <h3 class="shopItem__price">65zł</h3>
+            <button class="shopItem__btn" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop__item">
+          <h3 class="shopItem__title">Fell</h3>
+          <img class="shopItem__image" src="Images/Alicks-fell.jpg" />
+          <div class="shopItem__details">
+            <h3 class="shopItem__price">65zł</h3>
+            <button class="shopItem__btn" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop__item">
+          <h3 class="shopItem__title">Everything is so beautiful</h3>
+          <img
+            class="shopItem__image"
+            src="Images/Alicks-everything_is_so_beautiful.jpg"
+          />
+          <div class="shopItem__details">
+            <h3 class="shopItem__price">65zł</h3>
+            <button class="shopItem__btn" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop__item">
+          <h3 class="shopItem__title">A mess</h3>
+          <img class="shopItem__image" src="Images/Alicks-a_mess.jpg" />
+          <div class="shopItem__details">
+            <h3 class="shopItem__price">65zł</h3>
+            <button class="shopItem__btn" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop__item">
+          <h3 class="shopItem__title">1997</h3>
+          <img class="shopItem__image" src="Images/Alicks-1997.jpg" />
+          <div class="shopItem__details">
+            <h3 class="shopItem__price">65zł</h3>
+            <button class="shopItem__btn" type="button">ADD TO CART</button>
+          </div>
+        </div>
+      </div> -->
+
+      <ul class="shop__items"></ul>
+    </section>
+
+    <section class="cart__section">
+      <h2 class="container__header">CART</h2>
+      <div class="cart__row">
+        <div class="cart__item cart__header cart__column">ITEM</div>
+        <div class="cart__price cart__header cart__column">PRICE</div>
+        <div class="cart__quantity cart__header cart__column">QUANTITY</div>
+      </div>
+      <ul class="cart__items">
+        <!-- <li class="cart__row">
+          <div class="cart__item cart__column">
+            <img class="cart__item_image" src="Images/Alicks-help_me_out.jpg" />
+            <h4 class="cart__item_title">Album1</h4>
+          </div>
+          <h4 class="cart__price cart__column">65zł</h4>
+          <div class="cart__quantity cart__column">
+            <button class="cart__quantityBtn_down">-</button>
+            <h3>1</h3>
+            <button class="cart__quantityBtn_up">+</button>
+            <button class="cart__quantity_removeBtn" type="button">REMOVE</button>
+          </div>
+        </li> -->
+      </ul>
+
+      <!-- <div class="cart__total">
+        <ul>
+          <li class="cart__total_title">Total:</li>
+          <li class="cart__total_price">65zł</li>
+        </ul>
+      </div> -->
+      <h5 class="cart__total_title">
+         <span class="cart__total" data-action="CHECKOUT">Total:</span>
+      </h5>
+      <div class="cart__button_total">
+        <button class="cart__btn_purchase" type="button">PURCHASE</button>
+      </div>
+    </section>
+    <footer>
+      <div class="container__footer">
+        <div class="band__name">You can also find Alicks here:</div>
+        <ul>
+          <li>
+            <a
+              href="https://open.spotify.com/artist/60J5TDNg9Xxp9zxDXpBOjM"
+              target="_blank"
+            >
+              <img class="footer__icon" src="Images/spotify_icon.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://soundcloud.com/alicks14" target="_blank">
+              <img class="footer__icon" src="Images/soundcloud_icon.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/Alicks14" target="_blank">
+              <img class="footer__icon" src="Images/twitter_icon.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="store.js"></script>
+  </body>
+</html>
